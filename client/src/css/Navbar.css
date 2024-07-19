@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+.navbar {
+  font-family: "Playwrite IT Moderna", cursive;
+  width: 100%;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.navbar .form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .form-control {
+  margin-right: 10px;
+}
+
+.navbar .nav-item .nav-link.active {
+  font-weight: 500;
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link,
+.navbar-dark .dropdown-toggle {
+  color: #fff;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}

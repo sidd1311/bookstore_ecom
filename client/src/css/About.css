@@ -1,0 +1,33 @@
+
+
+.about-section {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  color: #343a40;
+  text-align: left; /* Align heading to the left */
+  font-size: 24px; /* Increase font size */
+}
+
+.about-section p,
+.about-section ul {
+  text-align: left; /* Align text content to the left */
+  margin: 0; /* Remove default margin */
+  font-size: 18px; /* Increase font size */
+}
+
+.about-section ul {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.about-section li {
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  font-size: 16px; /* Increase font size */
+}
